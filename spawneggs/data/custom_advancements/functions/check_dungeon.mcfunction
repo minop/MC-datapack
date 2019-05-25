@@ -1,0 +1,1 @@
+advancement grant @a[scores={spawners_killed=1}] only custom_advancements:challenges/dungeon

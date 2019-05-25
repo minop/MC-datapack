@@ -1,0 +1,79 @@
+{
+  "parent": "custom_advancements:challenges/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:cow_spawn_egg"
+    },
+    "title": "I Choose You!",
+    "description": "Acquire a spawn egg",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "chicken": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:chicken_spawn_egg"
+          }
+        ]
+      }
+    },
+	"cow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:cow_spawn_egg"
+          }
+        ]
+      }
+    },
+	"mooshroom": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:mooshroom_spawn_egg"
+          }
+        ]
+      }
+    },
+	"pig": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:pig_spawn_egg"
+          }
+        ]
+      }
+    },
+	"rabbit": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:rabbit_spawn_egg"
+          }
+        ]
+      }
+    },
+	"sheep": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:sheep_spawn_egg"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["chicken", "cow", "mooshroom", "pig", "rabbit", "sheep"]
+  ]
+}

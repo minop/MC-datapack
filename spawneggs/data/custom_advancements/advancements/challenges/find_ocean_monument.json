@@ -1,0 +1,24 @@
+{
+  "parent": "custom_advancements:challenges/find_shipwreck",
+  "display": {
+    "icon": {
+      "item": "minecraft:prismarine_bricks"
+    },
+    "title": "Seat of Poseidon",
+    "description": "Find an ocean monument",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "monument": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "dimension": "overworld",
+		"feature": "Monument"
+	   }
+      }
+    }
+  }
+}

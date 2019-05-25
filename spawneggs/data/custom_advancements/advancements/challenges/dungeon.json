@@ -1,0 +1,19 @@
+{
+  "parent": "custom_advancements:challenges/find_mineshaft",
+  "display": {
+    "icon": {
+      "item": "minecraft:spawner"
+    },
+    "title": "Dungeon Master",
+    "description": "Destroy a dungeon spawner",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "spectral": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "parent": "custom_advancements:challenges/dungeon",
+  "display": {
+    "icon": {
+      "item": "minecraft:chiseled_sandstone"
+    },
+    "title": "The Great Pyramid",
+    "description": "Find a desert temple",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "pyramid": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "dimension": "overworld",
+		"feature": "Desert_Pyramid"
+	   }
+      }
+    }
+  }
+}

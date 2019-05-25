@@ -1,0 +1,64 @@
+{
+  "parent": "custom_advancements:challenges/banners/one_christmas_banner",
+  "display": {
+    "icon": {
+      "item": "minecraft:brown_banner",
+	  "nbt": "{BlockEntityTag:{Patterns:[{Pattern:bo,Color:15},{Pattern:bo,Color:12},{Pattern:cre,Color:14},{Pattern:sku,Color:14},{Pattern:flo,Color:13},{Pattern:mc,Color:13},{Pattern:mc,Color:12}]}}"
+    },
+    "title": "Christmas Cheer",
+    "description": "Acquire all of the winter banners",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "christmasA1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:brown_banner",
+			"nbt": "{BannerID:\"christmasA1\"}"
+          }
+        ]
+      }
+    },
+	"christmasA2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:white_banner",
+			"nbt": "{BannerID:\"christmasA2\"}"
+          }
+        ]
+      }
+    },
+	"christmasA3": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:brown_banner",
+			"nbt": "{BannerID:\"christmasA3\"}"
+          }
+        ]
+      }
+    },
+	"christmasA4": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:black_banner",
+			"nbt": "{BannerID:\"christmasA4\"}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  }
+}

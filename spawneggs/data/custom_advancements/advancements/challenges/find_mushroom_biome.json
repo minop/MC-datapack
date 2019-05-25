@@ -1,0 +1,36 @@
+{
+  "parent": "custom_advancements:challenges/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:mycelium"
+    },
+    "title": "There isn't Much Room Here",
+    "description": "Discover a mushroom biome",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "shore": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "dimension":"overworld",
+		"biome": "mushroom_field_shore"
+      }
+    },
+	"field": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "dimension":"overworld",
+		"biome": "mushroom_fields"
+      }
+    }
+  },
+  "requirements": [
+    ["shore", "field"]
+  ],
+  "rewards": {
+    "experience": 100
+  }
+}

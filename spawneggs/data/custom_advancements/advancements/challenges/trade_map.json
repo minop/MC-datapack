@@ -1,0 +1,28 @@
+{
+  "parent": "custom_advancements:challenges/trade_all_professions",
+  "display": {
+    "icon": {
+      "item": "minecraft:filled_map",
+	  "nbt": "{display:{MapColor:3830373}}"
+    },
+    "title": "I am Going on an Adventure!",
+    "description": "Buy an Exploration Map",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "map": {
+		   "trigger": "minecraft:villager_trade",
+		   "conditions": {
+			   "item": {
+				   "item": "minecraft:filled_map"
+			   },
+			   "villager": {
+				   "nbt": "{Profession:1,Career:2}"
+			   }
+		   }
+        }
+  }
+}

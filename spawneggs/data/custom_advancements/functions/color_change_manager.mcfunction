@@ -1,0 +1,18 @@
+team join aqua @a[scores={colour_change=1},tag=aqua_title]
+team join black @a[scores={colour_change=2},tag=black_title]
+team join blue @a[scores={colour_change=3},tag=blue_title]
+team join dark_aqua @a[scores={colour_change=4},tag=dark_aqua_title]
+team join dark_blue @a[scores={colour_change=5},tag=dark_blue_title]
+team join dark_gray @a[scores={colour_change=6},tag=dark_gray_title]
+team join dark_green @a[scores={colour_change=7},tag=dark_green_title]
+team join dark_purple @a[scores={colour_change=8},tag=dark_purple_title]
+team join dark_red @a[scores={colour_change=9},tag=dark_red_title]
+team join gold @a[scores={colour_change=10},tag=gold_title]
+team join gray @a[scores={colour_change=11},tag=gray_title]
+team join green @a[scores={colour_change=12},tag=green_title]
+team join light_purple @a[scores={colour_change=13},tag=light_purple_title]
+team join red @a[scores={colour_change=14},tag=red_title]
+team join yellow @a[scores={colour_change=15},tag=yellow_title]
+team leave @a[scores={colour_change=16}]
+scoreboard players set @a colour_change 0
+scoreboard players enable @a colour_change

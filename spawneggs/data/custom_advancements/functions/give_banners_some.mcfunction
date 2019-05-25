@@ -1,0 +1,7 @@
+give @s minecraft:purple_banner{BlockEntityTag:{Patterns:[{Pattern:tt,Color:15},{Pattern:hhb,Color:15},{Pattern:cbo,Color:15},{Pattern:bs,Color:10},{Pattern:bt,Color:10},{Pattern:ss,Color:10},{Pattern:bri,Color:2},{Pattern:cbo,Color:10},{Pattern:gru,Color:15},{Pattern:gra,Color:2},{Pattern:bo,Color:15}]}}
+give @s minecraft:light_blue_banner{BlockEntityTag:{Patterns:[{Pattern:cs,Color:12},{Pattern:flo,Color:5},{Pattern:sku,Color:12},{Pattern:tt,Color:13},{Pattern:dls,Color:12},{Pattern:bo,Color:3},{Pattern:tl,Color:13},{Pattern:tr,Color:13},{Pattern:cbo,Color:3}]}}
+give @s minecraft:purple_banner{BlockEntityTag:{Patterns:[{Pattern:sc,Color:15},{Pattern:ss,Color:10},{Pattern:ss,Color:15},{Pattern:tt,Color:2},{Pattern:sku,Color:15},{Pattern:cre,Color:15},{Pattern:flo,Color:15},{Pattern:rs,Color:11},{Pattern:ls,Color:11},{Pattern:ts,Color:11}]}}
+
+give @s minecraft:magenta_banner{BlockEntityTag:{Patterns:[{Pattern:tts,Color:15},{Pattern:cbo,Color:2},{Pattern:cr,Color:8},{Pattern:rd,Color:15},{Pattern:lud,Color:15},{Pattern:hhb,Color:2},{Pattern:sc,Color:15},{Pattern:cre,Color:15}]}}
+give @s minecraft:purple_banner{BlockEntityTag:{Patterns:[{Pattern:tts,Color:15},{Pattern:cbo,Color:10},{Pattern:cr,Color:8},{Pattern:rd,Color:15},{Pattern:lud,Color:15},{Pattern:hhb,Color:10},{Pattern:sc,Color:15},{Pattern:cre,Color:15}]}}
+give @s minecraft:pink_banner{BlockEntityTag:{Patterns:[{Pattern:mc,Color:14},{Pattern:bs,Color:10},{Pattern:flo,Color:0},{Pattern:tt,Color:10},{Pattern:cr,Color:0},{Pattern:bt,Color:0},{Pattern:cbo,Color:10},{Pattern:bts,Color:0}]}}

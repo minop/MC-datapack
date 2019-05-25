@@ -1,0 +1,22 @@
+{
+  "parent": "custom_advancements:titles/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:lime_concrete_powder"
+    },
+    "title": "Green Fingers",
+    "description": [{"text":"You can change your name colour to ","color":"white"},{"text":"[green]","color":"green"}],
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+	   "trigger_by_command": {
+		   "trigger": "minecraft:impossible"
+	   }
+  },
+  "rewards": {
+	"function": "custom_advancements:title_green"
+  }
+}

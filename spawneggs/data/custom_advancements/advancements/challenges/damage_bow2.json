@@ -1,0 +1,35 @@
+{
+  "parent": "custom_advancements:challenges/damage_bow",
+  "display": {
+    "icon": {
+      "item": "minecraft:bow"
+    },
+    "title": "Tell. William Tell.",
+    "description": "Deal 12 hearts of damage with a bow in a single hit",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "damage": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+			"dealt": {
+				"min": 25.0
+			},
+			"type": {
+				"is_projectile": true,
+				"direct_entity": {
+				  "type": "minecraft:arrow"
+				}
+			}
+		}
+      }
+    }
+  },
+  "rewards": {
+    "experience": 200
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "custom_advancements:challenges/damage_iron",
+  "display": {
+    "icon": {
+      "item": "minecraft:trident"
+    },
+    "title": "Salad fork",
+    "description": "Deal 4 hearts of damage with a thrown trident in a single hit",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "damage": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+			"dealt": {
+				"min": 8.0
+			},
+			"type": {
+				"is_projectile": true,
+				"direct_entity": {
+				  "type": "minecraft:trident"
+				}
+			}
+		}
+      }
+    }
+  }
+}

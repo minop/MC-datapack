@@ -1,0 +1,19 @@
+{
+    "pools": [
+		{
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "custom_advancements:banners/christmas_a",
+                    "weight": 4
+                },
+				{
+                    "type": "loot_table",
+                    "name": "custom_advancements:banners/general_a",
+                    "weight": 15
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+  "parent": "custom_advancements:challenges/banners/one_dragon_banner",
+  "display": {
+    "icon": {
+      "item": "minecraft:white_banner",
+	  "nbt": "{BlockEntityTag:{Patterns:[{Pattern:gru,Color:6},{Pattern:mr,Color:15},{Pattern:cr,Color:2},{Pattern:bo,Color:10},{Pattern:ms,Color:7},{Pattern:cbo,Color:15},{Pattern:sku,Color:15},{Pattern:cre,Color:7},{Pattern:cre,Color:15},{Pattern:bts,Color:15},{Pattern:flo,Color:15},{Pattern:tt,Color:15}]}}"
+    },
+    "title": "Souvenirs from the End Time",
+    "description": "Acquire all of the dragon banners",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "dragon1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:light_blue_banner",
+			"nbt": "{BannerID:\"dragon1\"}"
+          }
+        ]
+      }
+    },
+	"dragon2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:white_banner",
+			"nbt": "{BannerID:\"dragon2\"}"
+          }
+        ]
+      }
+    },
+	"dragon3": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:magenta_banner",
+			"nbt": "{BannerID:\"dragon3\"}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  }
+}

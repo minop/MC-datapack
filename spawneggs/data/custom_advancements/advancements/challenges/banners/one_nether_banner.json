@@ -1,0 +1,53 @@
+{
+  "parent": "custom_advancements:challenges/banners/one_banner",
+  "display": {
+    "icon": {
+      "item": "minecraft:purple_banner",
+	  "nbt": "{BlockEntityTag:{Patterns:[{Pattern:tt,Color:15},{Pattern:hhb,Color:15},{Pattern:cbo,Color:15},{Pattern:bs,Color:10},{Pattern:bt,Color:10},{Pattern:ss,Color:10},{Pattern:bri,Color:2},{Pattern:cbo,Color:10},{Pattern:gru,Color:15},{Pattern:gra,Color:2},{Pattern:bo,Color:15}]}}"
+    },
+    "title": "Lava Draperies",
+    "description": "Acquire one of the nether banners",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "portal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:purple_banner",
+			"nbt": "{BannerID:\"nether\"}"
+          }
+        ]
+      }
+    },
+	"wither": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:red_banner",
+			"nbt": "{BannerID:\"wither\"}"
+          }
+        ]
+      }
+    },
+	"skeletonW": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:red_banner",
+			"nbt": "{BannerID:\"skeletonW\"}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+	["portal","wither","skeletonW"]
+  ]
+}

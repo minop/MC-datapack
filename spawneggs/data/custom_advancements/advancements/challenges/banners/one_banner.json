@@ -1,0 +1,383 @@
+{
+  "parent": "custom_advancements:challenges/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:purple_banner",
+	  "nbt": "{BlockEntityTag:{Patterns:[{Pattern:hhb,Color:10},{Pattern:hh,Color:10},{Pattern:rud,Color:10},{Pattern:tt,Color:0},{Pattern:ld,Color:10},{Pattern:gru,Color:1},{Pattern:bts,Color:5},{Pattern:bts,Color:12}]}}"
+    },
+    "title": "Fine Addition to My Collection",
+    "description": "Acquire any of the collectible banners",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "dragon1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:light_blue_banner",
+			"nbt": "{BannerID:\"dragon1\"}"
+          }
+        ]
+      }
+    },
+	"dragon2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:white_banner",
+			"nbt": "{BannerID:\"dragon2\"}"
+          }
+        ]
+      }
+    },
+	"dragon3": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:magenta_banner",
+			"nbt": "{BannerID:\"dragon3\"}"
+          }
+        ]
+      }
+    },
+	"christmasA1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:brown_banner",
+			"nbt": "{BannerID:\"christmasA1\"}"
+          }
+        ]
+      }
+    },
+	"christmasA2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:white_banner",
+			"nbt": "{BannerID:\"christmasA2\"}"
+          }
+        ]
+      }
+    },
+	"christmasA3": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:brown_banner",
+			"nbt": "{BannerID:\"christmasA3\"}"
+          }
+        ]
+      }
+    },
+	"christmasA4": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:black_banner",
+			"nbt": "{BannerID:\"christmasA4\"}"
+          }
+        ]
+      }
+    },
+	"chicken": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:white_banner",
+			"nbt": "{BannerID:\"chicken\"}"
+          }
+        ]
+      }
+    },
+	"slime": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:lime_banner",
+			"nbt": "{BannerID:\"slime\"}"
+          }
+        ]
+      }
+    },
+	"squid": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:light_blue_banner",
+			"nbt": "{BannerID:\"squid\"}"
+          }
+        ]
+      }
+    },
+	"rabbit": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:white_banner",
+			"nbt": "{BannerID:\"rabbit\"}"
+          }
+        ]
+      }
+    },
+	"cow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:white_banner",
+			"nbt": "{BannerID:\"cow\"}"
+          }
+        ]
+      }
+    },
+	"enderman": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:purple_banner",
+			"nbt": "{BannerID:\"enderman\"}"
+          }
+        ]
+      }
+    },
+	"zombie": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:black_banner",
+			"nbt": "{BannerID:\"zombie\"}"
+          }
+        ]
+      }
+    },
+	"skeleton": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:black_banner",
+			"nbt": "{BannerID:\"skeleton\"}"
+          }
+        ]
+      }
+    },
+	"skeletonW": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:red_banner",
+			"nbt": "{BannerID:\"skeletonW\"}"
+          }
+        ]
+      }
+    },
+	"generalA1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:yellow_banner",
+			"nbt": "{BannerID:\"generalA1\"}"
+          }
+        ]
+      }
+    },
+	"generalA2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:purple_banner",
+			"nbt": "{BannerID:\"generalA2\"}"
+          }
+        ]
+      }
+    },
+	"generalA3": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:purple_banner",
+			"nbt": "{BannerID:\"generalA3\"}"
+          }
+        ]
+      }
+    },
+	"generalA4": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:blue_banner",
+			"nbt": "{BannerID:\"generalA4\"}"
+          }
+        ]
+      }
+    },
+	"generalA5": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:light_blue_banner",
+			"nbt": "{BannerID:\"generalA5\"}"
+          }
+        ]
+      }
+    },
+	"generalA6": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:black_banner",
+			"nbt": "{BannerID:\"generalA6\"}"
+          }
+        ]
+      }
+    },
+	"generalA7": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:white_banner",
+			"nbt": "{BannerID:\"generalA7\"}"
+          }
+        ]
+      }
+    },
+	"generalA8": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:light_blue_banner",
+			"nbt": "{BannerID:\"generalA8\"}"
+          }
+        ]
+      }
+    },
+	"generalA9": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:green_banner",
+			"nbt": "{BannerID:\"generalA9\"}"
+          }
+        ]
+      }
+    },
+	"generalA10": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:yellow_banner",
+			"nbt": "{BannerID:\"generalA10\"}"
+          }
+        ]
+      }
+    },
+	"generalA11": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:light_gray_banner",
+			"nbt": "{BannerID:\"generalA11\"}"
+          }
+        ]
+      }
+    },
+	"generalA12": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:black_banner",
+			"nbt": "{BannerID:\"generalA12\"}"
+          }
+        ]
+      }
+    },
+	"generalA13": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:gray_banner",
+			"nbt": "{BannerID:\"generalA13\"}"
+          }
+        ]
+      }
+    },
+	"generalA14": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:white_banner",
+			"nbt": "{BannerID:\"generalA14\"}"
+          }
+        ]
+      }
+    },
+	"generalA15": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:light_blue_banner",
+			"nbt": "{BannerID:\"generalA15\"}"
+          }
+        ]
+      }
+    },
+	"portal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:purple_banner",
+			"nbt": "{BannerID:\"nether\"}"
+          }
+        ]
+      }
+    },
+	"wither": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:red_banner",
+			"nbt": "{BannerID:\"wither\"}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+	["dragon1","dragon2","dragon3","christmasA1","christmasA2","christmasA3","christmasA4","chicken","slime","squid","rabbit","cow","enderman","zombie","skeleton","skeletonW","generalA1","generalA2","generalA3","generalA4","generalA5","generalA6","generalA7","generalA8","generalA9","generalA10","generalA11","generalA12","generalA13","generalA14","generalA15","portal","wither"]
+  ]
+}

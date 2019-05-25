@@ -1,0 +1,2 @@
+function custom_advancements:achievement_check
+function custom_advancements:color_change_manager

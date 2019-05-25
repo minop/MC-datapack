@@ -1,0 +1,113 @@
+{
+  "parent": "custom_advancements:challenges/find_all_ruined",
+  "display": {
+    "icon": {
+      "item": "minecraft:chiseled_stone_bricks"
+    },
+    "title": "Eye for Architecture",
+    "description": [{"text":"Find all generated structures in the overworld\n","color":"dark_purple"},{"text":"[Unlocks yellow name]","color":"yellow"}],
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+	"ruins": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "dimension": "overworld",
+		"feature": "Ocean_Ruin"
+	   }
+      },
+	"ship": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "dimension": "overworld",
+		"feature": "Shipwreck"
+	   }
+      },
+	"map": {
+		"trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:filled_map",
+			"nbt": "{Decorations:[{type:26b}]}"
+          }
+        ]
+      }
+	},
+	"monument": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "dimension": "overworld",
+		"feature": "Monument"
+	   }
+      },
+	"pyramid": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "dimension": "overworld",
+		"feature": "Desert_Pyramid"
+	   }
+      },
+	"temple": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "dimension": "overworld",
+		"feature": "Jungle_Pyramid"
+	   }
+      },
+	"mineshaft": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "dimension": "overworld",
+		"feature": "Mineshaft"
+	   }
+      },
+	  "village": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "dimension": "overworld",
+		"feature": "Village"
+	   }
+      },
+	"igloo": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "dimension": "overworld",
+		"feature": "Igloo"
+	   }
+      },
+	"witch": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "dimension": "overworld",
+		"feature": "Swamp_Hut"
+	   }
+      },
+    "mansion": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "dimension": "overworld",
+		"feature": "Mansion"
+	   }
+      }
+  },
+  "requirements": [
+	["ruins"],
+	["ship","map"],
+	["monument"],
+	["pyramid"],
+	["temple"],
+	["mineshaft"],
+	["village"],
+	["igloo"],
+	["witch"],
+	["mansion"]
+  ],
+  "rewards": {
+    "experience": 200,
+	"function": "custom_advancements:grant_yellow_title"
+  }
+}

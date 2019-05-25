@@ -1,0 +1,37 @@
+{
+  "parent": "custom_advancements:challenges/find_ruins",
+  "display": {
+    "icon": {
+      "item": "minecraft:spruce_boat"
+    },
+    "title": "Abandon Ship!",
+    "description": "Find a shipwreck or acquire a Treasure Map",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "ship": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "dimension": "overworld",
+		"feature": "Shipwreck"
+	   }
+      },
+	"map": {
+		"trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:filled_map",
+			"nbt": "{Decorations:[{type:26b}]}"
+          }
+        ]
+      }
+	}
+  },
+  "requirements": [
+	["ship","map"]
+  ]
+}

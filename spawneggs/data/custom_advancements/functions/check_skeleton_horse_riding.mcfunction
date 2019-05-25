@@ -1,0 +1,1 @@
+advancement grant @a[nbt={RootVehicle:{Entity:{id:"minecraft:skeleton_horse",SaddleItem:{id:"minecraft:saddle"}}}}] only custom_advancements:challenges/ride_skeleton_horse

@@ -1,0 +1,22 @@
+{
+  "parent": "custom_advancements:titles/red",
+  "display": {
+    "icon": {
+      "item": "minecraft:nether_wart_block"
+    },
+    "title": "One Turn Kill",
+    "description": [{"text":"You can change your name colour to ","color":"white"},{"text":"[blood red]","color":"dark_red"}],
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+	   "trigger_by_command": {
+		   "trigger": "minecraft:impossible"
+	   }
+  },
+  "rewards": {
+	"function": "custom_advancements:title_dark_red"
+  }
+}

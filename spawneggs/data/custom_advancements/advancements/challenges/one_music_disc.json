@@ -1,0 +1,139 @@
+{
+  "parent": "custom_advancements:challenges/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:music_disc_13"
+    },
+    "title": "Relaxing Tune",
+    "description": "Acquire a music disc",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "13": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:music_disc_13"
+          }
+        ]
+      }
+    },
+	"cat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:music_disc_cat"
+          }
+        ]
+      }
+    },
+	"blocks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:music_disc_blocks"
+          }
+        ]
+      }
+    },
+	"chirp": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:music_disc_chirp"
+          }
+        ]
+      }
+    },
+	"far": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:music_disc_far"
+          }
+        ]
+      }
+    },
+	"mall": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:music_disc_mall"
+          }
+        ]
+      }
+    },
+	"mellohi": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:music_disc_mellohi"
+          }
+        ]
+      }
+    },
+	"stal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:music_disc_stal"
+          }
+        ]
+      }
+    },
+	"strad": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:music_disc_strad"
+          }
+        ]
+      }
+    },
+	"ward": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:music_disc_ward"
+          }
+        ]
+      }
+    },
+	"wait": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:music_disc_wait"
+          }
+        ]
+      }
+    },
+	"11": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:music_disc_11"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["13", "cat", "blocks", "chirp", "far", "mall", "mellohi", "stal", "strad", "ward", "wait", "11"]
+  ]
+}

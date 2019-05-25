@@ -1,0 +1,112 @@
+{
+  "parent": "custom_advancements:challenges/trade_all_professions",
+  "display": {
+    "icon": {
+      "item": "minecraft:emerald"
+    },
+    "title": "Traveling Salesman",
+    "description": "Trade with villagers of every profession and career",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+	   "farmer": {
+		   "trigger": "minecraft:villager_trade",
+		   "conditions": {
+			   "villager": {
+				   "nbt": "{Profession:0,Career:1}"
+			   }
+		   }
+        },
+		"fisherman": {
+		   "trigger": "minecraft:villager_trade",
+		   "conditions": {
+			   "villager": {
+				   "nbt": "{Profession:0,Career:2}"
+			   }
+		   }
+        },
+		"shepherd": {
+		   "trigger": "minecraft:villager_trade",
+		   "conditions": {
+			   "villager": {
+				   "nbt": "{Profession:0,Career:3}"
+			   }
+		   }
+        },
+		"fletcher": {
+		   "trigger": "minecraft:villager_trade",
+		   "conditions": {
+			   "villager": {
+				   "nbt": "{Profession:0,Career:4}"
+			   }
+		   }
+        },
+		"librarian": {
+		   "trigger": "minecraft:villager_trade",
+		   "conditions": {
+			   "villager": {
+				   "nbt": "{Profession:1,Career:1}"
+			   }
+		   }
+        },
+		"cartographer": {
+		   "trigger": "minecraft:villager_trade",
+		   "conditions": {
+			   "villager": {
+				   "nbt": "{Profession:1,Career:2}"
+			   }
+		   }
+        },
+		"cleric": {
+		   "trigger": "minecraft:villager_trade",
+		   "conditions": {
+			   "villager": {
+				   "nbt": "{Profession:2,Career:1}"
+			   }
+		   }
+        },
+		"armorer": {
+		   "trigger": "minecraft:villager_trade",
+		   "conditions": {
+			   "villager": {
+				   "nbt": "{Profession:3,Career:1}"
+			   }
+		   }
+        },
+		"weapon_smith": {
+		   "trigger": "minecraft:villager_trade",
+		   "conditions": {
+			   "villager": {
+				   "nbt": "{Profession:3,Career:2}"
+			   }
+		   }
+        },
+		"tool_smith": {
+		   "trigger": "minecraft:villager_trade",
+		   "conditions": {
+			   "villager": {
+				   "nbt": "{Profession:3,Career:3}"
+			   }
+		   }
+        },
+		"butcher": {
+		   "trigger": "minecraft:villager_trade",
+		   "conditions": {
+			   "villager": {
+				   "nbt": "{Profession:4,Career:1}"
+			   }
+		   }
+        },
+		"leatherworker": {
+		   "trigger": "minecraft:villager_trade",
+		   "conditions": {
+			   "villager": {
+				   "nbt": "{Profession:4,Career:2}"
+			   }
+		   }
+        }
+  }
+}

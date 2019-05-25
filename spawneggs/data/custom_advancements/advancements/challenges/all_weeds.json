@@ -1,0 +1,86 @@
+{
+  "parent": "custom_advancements:challenges/all_trees",
+  "display": {
+    "icon": {
+      "item": "minecraft:kelp"
+    },
+    "title": "Weeds and Seaweeds",
+    "description": "Acquire all green land and marine plants",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "grass": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:grass"
+          }
+        ]
+      }
+    },
+	"fern": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:fern"
+          }
+        ]
+      }
+    },
+	"seagrass": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:seagrass"
+          }
+        ]
+      }
+    },
+	"cactus": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:cactus"
+          }
+        ]
+      }
+    },
+	"vines": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:vine"
+          }
+        ]
+      }
+    },
+	"lily": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:lily_pad"
+          }
+        ]
+      }
+    },
+	"kelp": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:kelp"
+          }
+        ]
+      }
+    }
+  }
+}

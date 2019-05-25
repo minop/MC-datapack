@@ -1,0 +1,22 @@
+{
+  "parent": "custom_advancements:titles/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:pink_concrete_powder"
+    },
+    "title": "Fancy Tapestry",
+    "description": [{"text":"You can change your name colour to ","color":"white"},{"text":"[pink]","color":"light_purple"}],
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+	   "trigger_by_command": {
+		   "trigger": "minecraft:impossible"
+	   }
+  },
+  "rewards": {
+	"function": "custom_advancements:title_light_purple"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "parent": "custom_advancements:challenges/trade_map",
+  "display": {
+    "icon": {
+      "item": "minecraft:enchanted_book"
+    },
+    "title": "Lost Knowledge",
+    "description": "Acquire an enchanted book with a treasure enchantment",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "mending": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:enchanted_book",
+			"enchantments": [
+				{
+					"enchantment": "minecraft:mending",
+					"levels": 1
+				}
+			]
+          }
+        ]
+      }
+    },
+	"frost": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:enchanted_book",
+			"enchantments": [
+				{
+					"enchantment": "minecraft:frost_walker",
+					"levels": {"min":1,"max":2}
+				}
+			]
+          }
+        ]
+      }
+    },
+	"vanishing": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:enchanted_book",
+			"enchantments": [
+				{
+					"enchantment": "minecraft:vanishing_curse",
+					"levels": 1
+				}
+			]
+          }
+        ]
+      }
+    },
+	"binding": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:enchanted_book",
+			"enchantments": [
+				{
+					"enchantment": "minecraft:binding_curse",
+					"levels": 1
+				}
+			]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["mending","frost","vanishing","binding"]
+  ]
+}

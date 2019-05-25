@@ -1,0 +1,87 @@
+{
+  "parent": "custom_advancements:challenges/one_spawnegg",
+  "display": {
+    "icon": {
+      "item": "minecraft:blaze_spawn_egg"
+    },
+    "title": "Gotta Catch 'Em All",
+    "description": "Acquire all spawn eggs",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "chicken": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:chicken_spawn_egg"
+          }
+        ]
+      }
+    },
+	"cow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:cow_spawn_egg"
+          }
+        ]
+      }
+    },
+	"mooshroom": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:mooshroom_spawn_egg"
+          }
+        ]
+      }
+    },
+	"pig": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:pig_spawn_egg"
+          }
+        ]
+      }
+    },
+	"rabbit": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:rabbit_spawn_egg"
+          }
+        ]
+      }
+    },
+	"sheep": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:sheep_spawn_egg"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["chicken"],
+	["cow"],
+	["mooshroom"],
+	["pig"],
+	["rabbit"],
+	["sheep"]
+  ],
+  "rewards": {
+    "experience": 100
+  }
+}

@@ -1,0 +1,1 @@
+advancement grant @a[nbt={RootVehicle:{Entity:{id:"minecraft:pig"}}}] only custom_advancements:challenges/ride_pig

@@ -1,0 +1,1 @@
+advancement grant @s only custom_advancements:titles/dark_red

@@ -1,0 +1,26 @@
+{
+  "parent": "custom_advancements:challenges/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:blue_shulker_box"
+    },
+    "title": "It's Bigger on the Inside!",
+    "description": "Construct a Shulker Box",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "box": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:shulker_box"
+          }
+        ]
+      }
+    }
+  }
+}

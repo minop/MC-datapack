@@ -1,0 +1,47 @@
+{
+  "parent": "custom_advancements:challenges/find_mansion",
+  "display": {
+    "icon": {
+      "item": "minecraft:dark_oak_door"
+    },
+    "title": "Knock, Knock",
+    "description": "Find all habitable structures",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+	"village": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "dimension": "overworld",
+		"feature": "Village"
+	   }
+      },
+	"igloo": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "dimension": "overworld",
+		"feature": "Igloo"
+	   }
+      },
+	"witch": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "dimension": "overworld",
+		"feature": "Swamp_Hut"
+	   }
+      },
+    "mansion": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "dimension": "overworld",
+		"feature": "Mansion"
+	   }
+      }
+  },
+  "rewards": {
+    "experience": 100
+  }
+}

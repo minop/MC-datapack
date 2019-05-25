@@ -1,0 +1,185 @@
+{
+  "parent": "custom_advancements:challenges/banners/one_general_banner",
+  "display": {
+    "icon": {
+      "item": "minecraft:light_blue_banner",
+	  "nbt": "{BlockEntityTag:{Patterns:[{Pattern:mr,Color:7},{Pattern:mc,Color:3},{Pattern:sc,Color:12},{Pattern:tr,Color:0},{Pattern:hhb,Color:15},{Pattern:hhb,Color:12},{Pattern:bs,Color:11},{Pattern:cbo,Color:3},{Pattern:gru,Color:3}]}}"
+    },
+    "title": "Full Collection",
+    "description": "Acquire all of the common banners",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "generalA1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:yellow_banner",
+			"nbt": "{BannerID:\"generalA1\"}"
+          }
+        ]
+      }
+    },
+	"generalA2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:purple_banner",
+			"nbt": "{BannerID:\"generalA2\"}"
+          }
+        ]
+      }
+    },
+	"generalA3": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:purple_banner",
+			"nbt": "{BannerID:\"generalA3\"}"
+          }
+        ]
+      }
+    },
+	"generalA4": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:blue_banner",
+			"nbt": "{BannerID:\"generalA4\"}"
+          }
+        ]
+      }
+    },
+	"generalA5": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:light_blue_banner",
+			"nbt": "{BannerID:\"generalA5\"}"
+          }
+        ]
+      }
+    },
+	"generalA6": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:black_banner",
+			"nbt": "{BannerID:\"generalA6\"}"
+          }
+        ]
+      }
+    },
+	"generalA7": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:white_banner",
+			"nbt": "{BannerID:\"generalA7\"}"
+          }
+        ]
+      }
+    },
+	"generalA8": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:light_blue_banner",
+			"nbt": "{BannerID:\"generalA8\"}"
+          }
+        ]
+      }
+    },
+	"generalA9": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:green_banner",
+			"nbt": "{BannerID:\"generalA9\"}"
+          }
+        ]
+      }
+    },
+	"generalA10": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:yellow_banner",
+			"nbt": "{BannerID:\"generalA10\"}"
+          }
+        ]
+      }
+    },
+	"generalA11": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:light_gray_banner",
+			"nbt": "{BannerID:\"generalA11\"}"
+          }
+        ]
+      }
+    },
+	"generalA12": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:black_banner",
+			"nbt": "{BannerID:\"generalA12\"}"
+          }
+        ]
+      }
+    },
+	"generalA13": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:gray_banner",
+			"nbt": "{BannerID:\"generalA13\"}"
+          }
+        ]
+      }
+    },
+	"generalA14": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:white_banner",
+			"nbt": "{BannerID:\"generalA14\"}"
+          }
+        ]
+      }
+    },
+	"generalA15": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:light_blue_banner",
+			"nbt": "{BannerID:\"generalA15\"}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  }
+}

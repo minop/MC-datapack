@@ -1,0 +1,36 @@
+{
+  "parent": "custom_advancements:challenges/damage_overkill",
+  "display": {
+    "icon": {
+      "item": "minecraft:golden_axe"
+    },
+    "title": "Headsman",
+    "description": [{"text":"Deal 17 hearts of damage in a single hit with a melee weapon\n","color":"dark_purple"},{"text":"[Unlocks blood red name]","color":"dark_red"}],
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "damage": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+			"dealt": {
+				"min": 35.0
+			},
+			"type" : {
+				"is_explosion": false,
+				"is_fire": false,
+				"is_projectile": false,
+				"is_magic": false
+			}
+		}
+      }
+    }
+  },
+  "rewards": {
+    "experience": 400,
+	"function": "custom_advancements:grant_dark_red_title"
+  }
+}

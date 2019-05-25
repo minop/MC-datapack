@@ -1,0 +1,15 @@
+advancement grant @s[scores={secrets_found=1..}] only custom_advancements:secret/milestones/milestone01 secret01
+advancement grant @s[scores={secrets_found=2..}] only custom_advancements:secret/milestones/milestone01 secret02
+advancement grant @s[scores={secrets_found=3..}] only custom_advancements:secret/milestones/milestone01 secret03
+advancement grant @s[scores={secrets_found=4..}] only custom_advancements:secret/milestones/milestone01 secret04
+advancement grant @s[scores={secrets_found=5..}] only custom_advancements:secret/milestones/milestone01 secret05
+advancement grant @s[scores={secrets_found=1..}] only custom_advancements:secret/milestones/milestone02 secret01
+advancement grant @s[scores={secrets_found=2..}] only custom_advancements:secret/milestones/milestone02 secret02
+advancement grant @s[scores={secrets_found=3..}] only custom_advancements:secret/milestones/milestone02 secret03
+advancement grant @s[scores={secrets_found=4..}] only custom_advancements:secret/milestones/milestone02 secret04
+advancement grant @s[scores={secrets_found=5..}] only custom_advancements:secret/milestones/milestone02 secret05
+advancement grant @s[scores={secrets_found=6..}] only custom_advancements:secret/milestones/milestone02 secret06
+advancement grant @s[scores={secrets_found=7..}] only custom_advancements:secret/milestones/milestone02 secret07
+advancement grant @s[scores={secrets_found=8..}] only custom_advancements:secret/milestones/milestone02 secret08
+advancement grant @s[scores={secrets_found=9..}] only custom_advancements:secret/milestones/milestone02 secret09
+advancement grant @s[scores={secrets_found=10..}] only custom_advancements:secret/milestones/milestone02 secret10

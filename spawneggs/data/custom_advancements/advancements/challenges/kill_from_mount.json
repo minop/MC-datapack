@@ -1,0 +1,69 @@
+{
+  "parent": "custom_advancements:challenges/ride_horse",
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_sword"
+    },
+    "title": "Mount & Blade",
+    "description": "Kill a mob from your saddle",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+	   "horse": {
+		   "trigger": "minecraft:player_killed_entity",
+		   "conditions": {
+				"killing_blow": {
+					"source_entity": {
+						"nbt": "{RootVehicle:{Entity:{id:\"minecraft:horse\",SaddleItem:{id:\"minecraft:saddle\"}}}}"
+					}
+				}
+		   }
+	   },
+	   "skeleton": {
+		   "trigger": "minecraft:player_killed_entity",
+		   "conditions": {
+				"killing_blow": {
+					"source_entity": {
+						"nbt": "{RootVehicle:{Entity:{id:\"minecraft:skeleton_horse\",SaddleItem:{id:\"minecraft:saddle\"}}}}"
+					}
+				}
+		   }
+	   },
+	   "donkey": {
+		   "trigger": "minecraft:player_killed_entity",
+		   "conditions": {
+				"killing_blow": {
+					"source_entity": {
+						"nbt": "{RootVehicle:{Entity:{id:\"minecraft:donkey\",SaddleItem:{id:\"minecraft:saddle\"}}}}"
+					}
+				}
+		   }
+	   },
+	   "mule": {
+		   "trigger": "minecraft:player_killed_entity",
+		   "conditions": {
+				"killing_blow": {
+					"source_entity": {
+						"nbt": "{RootVehicle:{Entity:{id:\"minecraft:mule\",SaddleItem:{id:\"minecraft:saddle\"}}}}"
+					}
+				}
+		   }
+	   },
+	   "pig": {
+		   "trigger": "minecraft:player_killed_entity",
+		   "conditions": {
+				"killing_blow": {
+					"source_entity": {
+						"nbt": "{RootVehicle:{Entity:{id:\"minecraft:pig\"}}}"
+					}
+				}
+		   }
+	   }
+  },
+  "requirements": [
+	["horse","skeleton","donkey","mule","pig"]
+  ]
+}

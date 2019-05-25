@@ -1,0 +1,76 @@
+{
+  "parent": "custom_advancements:challenges/spectral",
+  "display": {
+    "icon": {
+      "item": "minecraft:spider_eye"
+    },
+    "title": "Chromatic Arachnids",
+    "description": "Kill all spiders that spawned with a potion effect",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+	"speed": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+			"type": "minecraft:spider",
+			"effects": {
+				"minecraft:speed": {
+					"duration": {
+						"min": 9601
+					}
+				}
+			}
+	   }
+      }
+    },
+    "strength": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+			"type": "minecraft:spider",
+			"effects": {
+				"minecraft:strength": {
+					"duration": {
+						"min": 9601
+					}
+				}
+			}
+	   }
+      }
+    },
+    "regeneration": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+			"type": "minecraft:spider",
+			"effects": {
+				"minecraft:regeneration": {
+					"duration": {
+						"min": 9601
+					}
+				}
+			}
+	   }
+      }
+    },
+    "invisibility": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+			"type": "minecraft:spider",
+			"effects": {
+				"minecraft:invisibility": {
+					"duration": {
+						"min": 9601
+					}
+				}
+			}
+	   }
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "parent": "custom_advancements:titles/dark_gray",
+  "display": {
+    "icon": {
+      "item": "minecraft:black_concrete"
+    },
+    "title": "Master of Whispers",
+    "description": [{"text":"You can change your name colour to ","color":"white"},{"text":"[black]","color":"black"}],
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+	   "trigger_by_command": {
+		   "trigger": "minecraft:impossible"
+	   }
+  },
+  "rewards": {
+	"function": "custom_advancements:title_black"
+  }
+}

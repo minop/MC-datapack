@@ -1,0 +1,19 @@
+{
+  "parent": "custom_advancements:challenges/ride_pig",
+  "display": {
+    "icon": {
+      "item": "minecraft:chest"
+    },
+    "title": "Beast of Burden",
+    "description": "Ride a donkey, a mule or a lama with a chest equiped",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+	   "trigger_by_command": {
+		   "trigger": "minecraft:impossible"
+	   }
+  }
+}

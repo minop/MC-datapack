@@ -1,0 +1,28 @@
+{
+  "parent": "custom_advancements:challenges/reach_bottom",
+  "display": {
+    "icon": {
+      "item": "minecraft:white_stained_glass"
+    },
+    "title": "I Believe I Can Touch the Sky",
+    "description": "Stand above the clouds",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "bedrock": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "dimension":"overworld",
+		"position": {
+			"y": {
+				"min": 150.0
+			}
+		}
+	   }
+      }
+    }
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "parent": "custom_advancements:challenges/banners/one_banner",
+  "display": {
+    "icon": {
+      "item": "minecraft:white_banner",
+	  "nbt": "{BlockEntityTag:{Patterns:[{Pattern:mc,Color:15},{Pattern:flo,Color:0},{Pattern:tt,Color:9},{Pattern:cr,Color:0},{Pattern:cbo,Color:9},{Pattern:bts,Color:0}]}}"
+    },
+    "title": "Trophy Taker",
+    "description": "Acquire one of the mob banners",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "chicken": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:white_banner",
+			"nbt": "{BannerID:\"chicken\"}"
+          }
+        ]
+      }
+    },
+	"slime": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:lime_banner",
+			"nbt": "{BannerID:\"slime\"}"
+          }
+        ]
+      }
+    },
+	"squid": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:light_blue_banner",
+			"nbt": "{BannerID:\"squid\"}"
+          }
+        ]
+      }
+    },
+	"rabbit": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:white_banner",
+			"nbt": "{BannerID:\"rabbit\"}"
+          }
+        ]
+      }
+    },
+	"cow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:white_banner",
+			"nbt": "{BannerID:\"cow\"}"
+          }
+        ]
+      }
+    },
+	"enderman": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:purple_banner",
+			"nbt": "{BannerID:\"enderman\"}"
+          }
+        ]
+      }
+    },
+	"zombie": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:black_banner",
+			"nbt": "{BannerID:\"zombie\"}"
+          }
+        ]
+      }
+    },
+	"skeleton": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:black_banner",
+			"nbt": "{BannerID:\"skeleton\"}"
+          }
+        ]
+      }
+    },
+	"skeletonW": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:red_banner",
+			"nbt": "{BannerID:\"skeletonW\"}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+	["chicken","slime","squid","rabbit","cow","enderman","zombie","skeleton","skeletonW"]
+  ]
+}

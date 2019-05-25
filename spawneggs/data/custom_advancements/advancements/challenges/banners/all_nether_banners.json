@@ -1,0 +1,53 @@
+{
+  "parent": "custom_advancements:challenges/banners/one_nether_banner",
+  "display": {
+    "icon": {
+      "item": "minecraft:red_banner",
+	  "nbt": "{BlockEntityTag:{Patterns:[{Pattern:bo,Color:15},{Pattern:hhb,Color:14},{Pattern:sc,Color:15},{Pattern:ts,Color:14},{Pattern:tt,Color:14},{Pattern:sku,Color:15},{Pattern:bts,Color:1}]}}"
+    },
+    "title": "Brimstone and Ash",
+    "description": "Acquire all of the nether banners",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "portal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:purple_banner",
+			"nbt": "{BannerID:\"nether\"}"
+          }
+        ]
+      }
+    },
+	"wither": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:red_banner",
+			"nbt": "{BannerID:\"wither\"}"
+          }
+        ]
+      }
+    },
+	"skeletonW": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:red_banner",
+			"nbt": "{BannerID:\"skeletonW\"}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  }
+}

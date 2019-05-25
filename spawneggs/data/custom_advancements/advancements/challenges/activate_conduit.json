@@ -1,0 +1,25 @@
+{
+  "parent": "custom_advancements:challenges/find_treasure",
+  "display": {
+    "icon": {
+      "item": "minecraft:conduit"
+    },
+    "title": "Power of the Sea",
+    "description": "Activate a Conduit",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "conduit": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:conduit_power": {}
+        }
+      }
+      }
+    }
+  }
+}

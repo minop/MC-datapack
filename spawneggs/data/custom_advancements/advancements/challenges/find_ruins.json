@@ -1,0 +1,24 @@
+{
+  "parent": "custom_advancements:challenges/dungeon",
+  "display": {
+    "icon": {
+      "item": "minecraft:cracked_stone_bricks"
+    },
+    "title": "Atlantean",
+    "description": "Find underwater ruins",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "ruins": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "dimension": "overworld",
+		"feature": "Ocean_Ruin"
+	   }
+      }
+    }
+  }
+}

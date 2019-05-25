@@ -1,0 +1,19 @@
+{
+  "parent": "custom_advancements:challenges/ride_horse",
+  "display": {
+    "icon": {
+      "item": "minecraft:bone"
+    },
+    "title": "Invincible",
+    "description": "Ride a skeleton horse",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+	   "trigger_by_command": {
+		   "trigger": "minecraft:impossible"
+	   }
+  }
+}

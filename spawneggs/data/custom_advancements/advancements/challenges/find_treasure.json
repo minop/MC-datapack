@@ -1,0 +1,36 @@
+{
+  "parent": "custom_advancements:challenges/find_shipwreck",
+  "display": {
+    "icon": {
+      "item": "minecraft:filled_map"
+    },
+    "title": "X Marks the Spot",
+    "description": "Find a buried treasure or acquire a Heart of the Sea",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "treasure": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "dimension": "overworld",
+		"feature": "Buried_Treasure"
+	   }
+    },
+	"heart": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+			  {
+				"item": "minecraft:heart_of_the_sea"
+			  }
+			]
+		}
+	}
+  },
+  "requirements": [
+	["treasure", "heart"]
+  ]
+}

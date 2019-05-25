@@ -1,0 +1,19 @@
+{
+  "parent": "custom_advancements:challenges/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:carrot_on_a_stick"
+    },
+    "title": "Don't Forget the Carrots!",
+    "description": "Ride on a pig",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+	   "trigger_by_command": {
+		   "trigger": "minecraft:impossible"
+	   }
+  }
+}

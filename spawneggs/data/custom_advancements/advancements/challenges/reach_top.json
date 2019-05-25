@@ -1,0 +1,28 @@
+{
+  "parent": "custom_advancements:challenges/reach_clouds",
+  "display": {
+    "icon": {
+      "item": "minecraft:light_blue_stained_glass"
+    },
+    "title": "I Have the High Ground!",
+    "description": "Stand at the very top of the world",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "bedrock": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "dimension":"overworld",
+		"position": {
+			"y": {
+				"min": 256.0
+			}
+		}
+	   }
+      }
+    }
+  }
+}

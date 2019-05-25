@@ -1,0 +1,408 @@
+{
+  "parent": "custom_advancements:challenges/trade_all_careers",
+  "display": {
+    "icon": {
+      "item": "minecraft:emerald_block"
+    },
+    "title": "Grand Exchange",
+    "description": [{"text":"Make any of the highest level purchases from villagers of every profession and career\n","color":"dark_purple"},{"text":"[Unlocks golden name]","color":"gold"}],
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+	   "farmer_1": {
+		   "trigger": "minecraft:villager_trade",
+		   "conditions": {
+				"item": {
+				   "item": "minecraft:cookie"
+			   },
+			   "villager": {
+				   "nbt": "{Profession:0,Career:1}"
+			   }
+		   }
+        },
+		"farmer_2": {
+		   "trigger": "minecraft:villager_trade",
+		   "conditions": {
+				"item": {
+				   "item": "minecraft:cake"
+			   },
+			   "villager": {
+				   "nbt": "{Profession:0,Career:1}"
+			   }
+		   }
+        },
+		"fisherman_1": {
+		   "trigger": "minecraft:villager_trade",
+		   "conditions": {
+			   "item": {
+				   "item": "minecraft:fishing_rod"
+			   },
+			   "villager": {
+				   "nbt": "{Profession:0,Career:2}"
+			   }
+		   }
+        },
+		"shepherd_1": {
+		   "trigger": "minecraft:villager_trade",
+		   "conditions": {
+			   "item": {
+				   "item": "minecraft:white_wool"
+			   },
+			   "villager": {
+				   "nbt": "{Profession:0,Career:3}"
+			   }
+		   }
+        },
+		"shepherd_2": {
+		   "trigger": "minecraft:villager_trade",
+		   "conditions": {
+			   "item": {
+				   "item": "minecraft:orange_wool"
+			   },
+			   "villager": {
+				   "nbt": "{Profession:0,Career:3}"
+			   }
+		   }
+        },
+		"shepherd_3": {
+		   "trigger": "minecraft:villager_trade",
+		   "conditions": {
+			   "item": {
+				   "item": "minecraft:magenta_wool"
+			   },
+			   "villager": {
+				   "nbt": "{Profession:0,Career:3}"
+			   }
+		   }
+        },
+		"shepherd_4": {
+		   "trigger": "minecraft:villager_trade",
+		   "conditions": {
+			   "item": {
+				   "item": "minecraft:light_blue_wool"
+			   },
+			   "villager": {
+				   "nbt": "{Profession:0,Career:3}"
+			   }
+		   }
+        },
+		"shepherd_5": {
+		   "trigger": "minecraft:villager_trade",
+		   "conditions": {
+			   "item": {
+				   "item": "minecraft:yellow_wool"
+			   },
+			   "villager": {
+				   "nbt": "{Profession:0,Career:3}"
+			   }
+		   }
+        },
+		"shepherd_6": {
+		   "trigger": "minecraft:villager_trade",
+		   "conditions": {
+			   "item": {
+				   "item": "minecraft:lime_wool"
+			   },
+			   "villager": {
+				   "nbt": "{Profession:0,Career:3}"
+			   }
+		   }
+        },
+		"shepherd_7": {
+		   "trigger": "minecraft:villager_trade",
+		   "conditions": {
+			   "item": {
+				   "item": "minecraft:pink_wool"
+			   },
+			   "villager": {
+				   "nbt": "{Profession:0,Career:3}"
+			   }
+		   }
+        },
+		"shepherd_8": {
+		   "trigger": "minecraft:villager_trade",
+		   "conditions": {
+			   "item": {
+				   "item": "minecraft:gray_wool"
+			   },
+			   "villager": {
+				   "nbt": "{Profession:0,Career:3}"
+			   }
+		   }
+        },
+		"shepherd_9": {
+		   "trigger": "minecraft:villager_trade",
+		   "conditions": {
+			   "item": {
+				   "item": "minecraft:light_gray_wool"
+			   },
+			   "villager": {
+				   "nbt": "{Profession:0,Career:3}"
+			   }
+		   }
+        },
+		"shepherd_10": {
+		   "trigger": "minecraft:villager_trade",
+		   "conditions": {
+			   "item": {
+				   "item": "minecraft:cyan_wool"
+			   },
+			   "villager": {
+				   "nbt": "{Profession:0,Career:3}"
+			   }
+		   }
+        },
+		"shepherd_11": {
+		   "trigger": "minecraft:villager_trade",
+		   "conditions": {
+			   "item": {
+				   "item": "minecraft:purple_wool"
+			   },
+			   "villager": {
+				   "nbt": "{Profession:0,Career:3}"
+			   }
+		   }
+        },
+		"shepherd_12": {
+		   "trigger": "minecraft:villager_trade",
+		   "conditions": {
+			   "item": {
+				   "item": "minecraft:blue_wool"
+			   },
+			   "villager": {
+				   "nbt": "{Profession:0,Career:3}"
+			   }
+		   }
+        },
+		"shepherd_13": {
+		   "trigger": "minecraft:villager_trade",
+		   "conditions": {
+			   "item": {
+				   "item": "minecraft:brown_wool"
+			   },
+			   "villager": {
+				   "nbt": "{Profession:0,Career:3}"
+			   }
+		   }
+        },
+		"shepherd_14": {
+		   "trigger": "minecraft:villager_trade",
+		   "conditions": {
+			   "item": {
+				   "item": "minecraft:green_wool"
+			   },
+			   "villager": {
+				   "nbt": "{Profession:0,Career:3}"
+			   }
+		   }
+        },
+		"shepherd_15": {
+		   "trigger": "minecraft:villager_trade",
+		   "conditions": {
+			   "item": {
+				   "item": "minecraft:red_wool"
+			   },
+			   "villager": {
+				   "nbt": "{Profession:0,Career:3}"
+			   }
+		   }
+        },
+		"shepherd_16": {
+		   "trigger": "minecraft:villager_trade",
+		   "conditions": {
+			   "item": {
+				   "item": "minecraft:black_wool"
+			   },
+			   "villager": {
+				   "nbt": "{Profession:0,Career:3}"
+			   }
+		   }
+        },
+		"fletcher_1": {
+		   "trigger": "minecraft:villager_trade",
+		   "conditions": {
+			   "item": {
+				   "item": "minecraft:bow"
+			   },
+			   "villager": {
+				   "nbt": "{Profession:0,Career:4}"
+			   }
+		   }
+        },
+		"fletcher_2": {
+		   "trigger": "minecraft:villager_trade",
+		   "conditions": {
+			   "item": {
+				   "item": "minecraft:flint"
+			   },
+			   "villager": {
+				   "nbt": "{Profession:0,Career:4}"
+			   }
+		   }
+        },
+		"librarian_1": {
+		   "trigger": "minecraft:villager_trade",
+		   "conditions": {
+			   "item": {
+				   "item": "minecraft:name_tag"
+			   },
+			   "villager": {
+				   "nbt": "{Profession:1,Career:1}"
+			   }
+		   }
+        },
+		"cartographer_1": {
+		   "trigger": "minecraft:villager_trade",
+		   "conditions": {
+			   "item": {
+				   "item": "minecraft:filled_map"
+			   },
+			   "villager": {
+				   "nbt": "{Profession:1,Career:2}"
+			   }
+		   }
+        },
+		"cleric_1": {
+		   "trigger": "minecraft:villager_trade",
+		   "conditions": {
+			   "item": {
+				   "item": "minecraft:experience_bottle"
+			   },
+			   "villager": {
+				   "nbt": "{Profession:2,Career:1}"
+			   }
+		   }
+        },
+		"armorer_1": {
+		   "trigger": "minecraft:villager_trade",
+		   "conditions": {
+			   "item": {
+				   "item": "minecraft:chainmail_helmet"
+			   },
+			   "villager": {
+				   "nbt": "{Profession:3,Career:1}"
+			   }
+		   }
+        },
+		"armorer_2": {
+		   "trigger": "minecraft:villager_trade",
+		   "conditions": {
+			   "item": {
+				   "item": "minecraft:chainmail_chestplate"
+			   },
+			   "villager": {
+				   "nbt": "{Profession:3,Career:1}"
+			   }
+		   }
+        },
+		"armorer_3": {
+		   "trigger": "minecraft:villager_trade",
+		   "conditions": {
+			   "item": {
+				   "item": "minecraft:chainmail_leggings"
+			   },
+			   "villager": {
+				   "nbt": "{Profession:3,Career:1}"
+			   }
+		   }
+        },
+		"armorer_4": {
+		   "trigger": "minecraft:villager_trade",
+		   "conditions": {
+			   "item": {
+				   "item": "minecraft:chainmail_boots"
+			   },
+			   "villager": {
+				   "nbt": "{Profession:3,Career:1}"
+			   }
+		   }
+        },
+		"weapon_smith_1": {
+		   "trigger": "minecraft:villager_trade",
+		   "conditions": {
+			   "item": {
+				   "item": "minecraft:diamond_sword"
+			   },
+			   "villager": {
+				   "nbt": "{Profession:3,Career:2}"
+			   }
+		   }
+        },
+		"weapon_smith_2": {
+		   "trigger": "minecraft:villager_trade",
+		   "conditions": {
+			   "item": {
+				   "item": "minecraft:diamond_axe"
+			   },
+			   "villager": {
+				   "nbt": "{Profession:3,Career:2}"
+			   }
+		   }
+        },
+		"tool_smith_1": {
+		   "trigger": "minecraft:villager_trade",
+		   "conditions": {
+			   "item": {
+				   "item": "minecraft:diamond_pickaxe"
+			   },
+			   "villager": {
+				   "nbt": "{Profession:3,Career:3}"
+			   }
+		   }
+        },
+		"butcher_1": {
+		   "trigger": "minecraft:villager_trade",
+		   "conditions": {
+			   "item": {
+				   "item": "minecraft:cooked_porkchop"
+			   },
+			   "villager": {
+				   "nbt": "{Profession:4,Career:1}"
+			   }
+		   }
+        },
+		"butcher_2": {
+		   "trigger": "minecraft:villager_trade",
+		   "conditions": {
+			   "item": {
+				   "item": "minecraft:cooked_chicken"
+			   },
+			   "villager": {
+				   "nbt": "{Profession:4,Career:1}"
+			   }
+		   }
+        },
+		"leatherworker_1": {
+		   "trigger": "minecraft:villager_trade",
+		   "conditions": {
+			   "item": {
+				   "item": "minecraft:saddle"
+			   },
+			   "villager": {
+				   "nbt": "{Profession:4,Career:2}"
+			   }
+		   }
+        }
+  },
+  "requirements": [
+    ["farmer_1","farmer_2"],
+	["fisherman_1"],
+	["shepherd_1","shepherd_2","shepherd_3","shepherd_4","shepherd_5","shepherd_6","shepherd_7","shepherd_8","shepherd_9","shepherd_10","shepherd_11","shepherd_12","shepherd_13","shepherd_14","shepherd_15","shepherd_16"],
+	["fletcher_1","fletcher_2"],
+	["librarian_1"],
+	["cartographer_1"],
+	["cleric_1"],
+	["armorer_1","armorer_2","armorer_3","armorer_4"],
+	["weapon_smith_1","weapon_smith_2"],
+	["tool_smith_1"],
+	["butcher_1","butcher_2"],
+	["leatherworker_1"]
+  ],
+  "rewards": {
+    "experience": 100,
+	"function": "custom_advancements:grant_gold_title"
+  }
+}

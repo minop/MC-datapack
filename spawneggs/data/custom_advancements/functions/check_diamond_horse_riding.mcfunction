@@ -1,0 +1,1 @@
+advancement grant @a[nbt={RootVehicle:{Entity:{id:"minecraft:horse",ArmorItem:{id:"minecraft:diamond_horse_armor"},SaddleItem:{id:"minecraft:saddle"}}}}] only custom_advancements:challenges/ride_diamond_horse

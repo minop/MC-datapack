@@ -1,0 +1,23 @@
+{
+  "parent": "custom_advancements:titles/green",
+  "display": {
+    "icon": {
+      "item": "minecraft:white_concrete",
+      "_item": "minecraft:green_concrete_powder"
+    },
+    "title": [{"text":"Comming Soon\u2122","color":"gray"}],
+    "description": [{"text":"You can change your name colour to ","color":"white"},{"text":"[dark green]","color":"dark_green"}],
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+	   "trigger_by_command": {
+		   "trigger": "minecraft:impossible"
+	   }
+  },
+  "rewards": {
+	"function": "custom_advancements:title_dark_green"
+  }
+}

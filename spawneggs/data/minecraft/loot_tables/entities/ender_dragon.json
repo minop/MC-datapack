@@ -1,0 +1,35 @@
+{
+	"pools": [
+		{
+            "rolls": 1,
+			"bonus_rolls": 1.0,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "custom_advancements:banners/dragon",
+                    "weight": 1
+                }
+            ]
+        },
+		{
+            "conditions": [
+                {
+                    "condition": "killed_by_player"
+                },
+                {
+                    "condition": "random_chance",
+                    "chance": 0.0025
+                }
+            ],
+            "rolls": 1,
+			"bonus_rolls": 1.0,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "custom_advancements:banners/_global_table",
+                    "weight": 1
+                }
+            ]
+        }
+	]
+}

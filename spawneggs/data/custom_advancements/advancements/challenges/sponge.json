@@ -1,0 +1,26 @@
+{
+  "parent": "custom_advancements:challenges/find_ocean_monument",
+  "display": {
+    "icon": {
+      "item": "minecraft:sponge"
+    },
+    "title": "Square Pants",
+    "description": "Dry a Wet Sponge",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "box": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:sponge"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "parent": "custom_advancements:challenges/all_flowers",
+  "display": {
+    "icon": {
+      "item": "minecraft:dark_oak_sapling"
+    },
+    "title": "Shrubbery",
+    "description": "Acquire all leaves and saplings",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "oakS": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:oak_sapling"
+          }
+        ]
+      }
+    },
+	"spruceS": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:spruce_sapling"
+          }
+        ]
+      }
+    },
+	"birchS": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:birch_sapling"
+          }
+        ]
+      }
+    },
+	"jungleS": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:jungle_sapling"
+          }
+        ]
+      }
+    },
+	"acaciaS": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:acacia_sapling"
+          }
+        ]
+      }
+    },
+	"darkOakS": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:dark_oak_sapling"
+          }
+        ]
+      }
+    },
+	"oakL": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:oak_leaves"
+          }
+        ]
+      }
+    },
+	"spruceL": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:spruce_leaves"
+          }
+        ]
+      }
+    },
+	"birchL": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:birch_leaves"
+          }
+        ]
+      }
+    },
+	"jungleL": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:jungle_leaves"
+          }
+        ]
+      }
+    },
+	"acaciaL": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:acacia_leaves"
+          }
+        ]
+      }
+    },
+	"darkOakL": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:dark_oak_leaves"
+          }
+        ]
+      }
+    }
+  }
+}

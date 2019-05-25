@@ -1,0 +1,1 @@
+execute at @e[nbt={SkeletonTrap:true}] run advancement grant @a[distance=..10] only custom_advancements:secret/secret_skeleton_horse

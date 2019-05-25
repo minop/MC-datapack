@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:name_tag"
+    },
+    "title": "Entitled",
+    "description": [{"text":"Colours you have unlocked\n\nYou can set them with your book","color":"green","italic":false}],
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "background": "minecraft:textures/block/light_blue_terracotta.png"
+  },
+  "criteria": {
+     "trigger_by_command": {
+		   "trigger": "minecraft:impossible"
+	   }
+  },
+  "rewards": {
+	"function": "custom_advancements:title_book"
+  }
+}

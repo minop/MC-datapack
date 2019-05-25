@@ -1,0 +1,56 @@
+{
+  "parent": "custom_advancements:challenges/find_village",
+  "display": {
+    "icon": {
+      "item": "minecraft:emerald"
+    },
+    "title": "Dabbling Negotiator",
+    "description": "Trade with villagers of every profession",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+	   "farmer": {
+		   "trigger": "minecraft:villager_trade",
+		   "conditions": {
+			   "villager": {
+				   "nbt": "{Profession:0}"
+			   }
+		   }
+        },
+		"librarian": {
+		   "trigger": "minecraft:villager_trade",
+		   "conditions": {
+			   "villager": {
+				   "nbt": "{Profession:1}"
+			   }
+		   }
+        },
+		"priest": {
+		   "trigger": "minecraft:villager_trade",
+		   "conditions": {
+			   "villager": {
+				   "nbt": "{Profession:2}"
+			   }
+		   }
+        },
+		"blacksmith": {
+		   "trigger": "minecraft:villager_trade",
+		   "conditions": {
+			   "villager": {
+				   "nbt": "{Profession:3}"
+			   }
+		   }
+        },
+		"butcher": {
+		   "trigger": "minecraft:villager_trade",
+		   "conditions": {
+			   "villager": {
+				   "nbt": "{Profession:4}"
+			   }
+		   }
+        }
+  }
+}

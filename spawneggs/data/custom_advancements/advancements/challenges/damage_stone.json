@@ -1,0 +1,26 @@
+{
+  "parent": "custom_advancements:challenges/damage_base",
+  "display": {
+    "icon": {
+      "item": "minecraft:stone_sword"
+    },
+    "title": "Sticks and stones",
+    "description": "Deal 3 hearts of damage in a single hit",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "damage": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+			"dealt": {
+				"min": 7.5
+			}
+		}
+      }
+    }
+  }
+}

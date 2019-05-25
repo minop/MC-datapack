@@ -1,0 +1,3 @@
+advancement grant @a[nbt={RootVehicle:{Entity:{id:"minecraft:donkey", ChestedHorse:true}}}] only custom_advancements:challenges/ride_bob
+advancement grant @a[nbt={RootVehicle:{Entity:{id:"minecraft:mule", ChestedHorse:true}}}] only custom_advancements:challenges/ride_bob
+advancement grant @a[nbt={RootVehicle:{Entity:{id:"minecraft:llama", ChestedHorse:true}}}] only custom_advancements:challenges/ride_bob

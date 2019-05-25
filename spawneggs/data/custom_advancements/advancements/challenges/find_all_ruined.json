@@ -1,0 +1,80 @@
+{
+  "parent": "custom_advancements:challenges/find_jungle_temple",
+  "display": {
+    "icon": {
+      "item": "minecraft:mossy_stone_bricks"
+    },
+    "title": "That Belongs in a Museum",
+    "description": "Find all ruined or abandoned structures",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+	"ruins": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "dimension": "overworld",
+		"feature": "Ocean_Ruin"
+	   }
+      },
+	"ship": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "dimension": "overworld",
+		"feature": "Shipwreck"
+	   }
+      },
+	"map": {
+		"trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:filled_map",
+			"nbt": "{Decorations:[{type:26b}]}"
+          }
+        ]
+      }
+	},
+	"monument": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "dimension": "overworld",
+		"feature": "Monument"
+	   }
+      },
+	"pyramid": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "dimension": "overworld",
+		"feature": "Desert_Pyramid"
+	   }
+      },
+	"temple": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "dimension": "overworld",
+		"feature": "Jungle_Pyramid"
+	   }
+      },
+	"mineshaft": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "dimension": "overworld",
+		"feature": "Mineshaft"
+	   }
+      }
+    },
+  "requirements": [
+	["ruins"],
+	["ship","map"],
+	["monument"],
+	["pyramid"],
+	["temple"],
+	["mineshaft"]
+  ],
+  "rewards": {
+    "experience": 100
+  }
+}

@@ -1,0 +1,42 @@
+{
+    "pools": [
+		{
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:light_blue_banner",
+                    "weight": 1,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{BlockEntityTag:{Patterns:[{Pattern:tts,Color:15},{Pattern:cbo,Color:3},{Pattern:cr,Color:8},{Pattern:rd,Color:15},{Pattern:lud,Color:15},{Pattern:hhb,Color:3},{Pattern:sc,Color:15},{Pattern:cre,Color:15}]},display:{Name:\"{\\\"text\\\":\\\"Flight Banner\\\",\\\"color\\\":\\\"green\\\"}\",Lore:[\"Design by kurtvonwowwow\",\"from planetminecraft.com\"]},BannerID:\"dragon1\"}"
+						}
+					]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:white_banner",
+                    "weight": 1,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{BlockEntityTag:{Patterns:[{Pattern:gru,Color:6},{Pattern:mr,Color:15},{Pattern:cr,Color:2},{Pattern:bo,Color:10},{Pattern:ms,Color:7},{Pattern:cbo,Color:15},{Pattern:sku,Color:15},{Pattern:cre,Color:7},{Pattern:cre,Color:15},{Pattern:bts,Color:15},{Pattern:flo,Color:15},{Pattern:tt,Color:15}]},display:{Name:\"{\\\"text\\\":\\\"Maw Banner\\\",\\\"color\\\":\\\"green\\\"}\",Lore:[\"Design from planetminecraft.com\"]},BannerID:\"dragon2\"}"
+						}
+					]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:magenta_banner",
+                    "weight": 1,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{BlockEntityTag:{Patterns:[{Pattern:flo,Color:10},{Pattern:hhb,Color:2},{Pattern:bo,Color:15},{Pattern:ms,Color:15},{Pattern:bs,Color:15},{Pattern:ts,Color:15},{Pattern:tt,Color:15}]},display:{Name:\"{\\\"text\\\":\\\"Gaze Banner\\\",\\\"color\\\":\\\"green\\\"}\",Lore:[\"Design by odiedog1\",\"from planetminecraft.com\"]},BannerID:\"dragon3\"}"
+						}
+					]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+  "parent": "custom_advancements:challenges/banners/one_banner",
+  "display": {
+    "icon": {
+      "item": "minecraft:light_blue_banner",
+	  "nbt": "{BlockEntityTag:{Patterns:[{Pattern:tts,Color:15},{Pattern:cbo,Color:3},{Pattern:cr,Color:8},{Pattern:rd,Color:15},{Pattern:lud,Color:15},{Pattern:hhb,Color:3},{Pattern:sc,Color:15},{Pattern:cre,Color:15}]}}"
+    },
+    "title": "Herald of the End",
+    "description": "Acquire one of the dragon banners",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "dragon1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:light_blue_banner",
+			"nbt": "{BannerID:\"dragon1\"}"
+          }
+        ]
+      }
+    },
+	"dragon2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:white_banner",
+			"nbt": "{BannerID:\"dragon2\"}"
+          }
+        ]
+      }
+    },
+	"dragon3": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:magenta_banner",
+			"nbt": "{BannerID:\"dragon3\"}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+	["dragon1","dragon2","dragon3"]
+  ]
+}

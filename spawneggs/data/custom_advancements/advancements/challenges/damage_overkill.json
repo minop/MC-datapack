@@ -1,0 +1,35 @@
+{
+  "parent": "custom_advancements:challenges/damage_axe",
+  "display": {
+    "icon": {
+      "item": "minecraft:golden_sword"
+    },
+    "title": "Overkill",
+    "description": "Deal 9 hearts of damage in a single hit with a melee weapon",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "damage": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+			"dealt": {
+				"min": 18.0
+			},
+			"type" : {
+				"is_explosion": false,
+				"is_fire": false,
+				"is_projectile": false,
+				"is_magic": false
+			}
+		}
+      }
+    }
+  },
+  "rewards": {
+    "experience": 200
+  }
+}
